@@ -1,0 +1,20 @@
+2025-04-18 18:50:23,868 - INFO - Found 4 unique teams
+2025-04-18 18:50:23,871 - INFO - Created features DataFrame with shape (2, 8)
+2025-04-18 18:50:23,871 - INFO - 
+Feature statistics:
+2025-04-18 18:50:23,878 - INFO -        home_avg_goals_scored  ...  away_total_games
+count                2.00000  ...               2.0
+mean              1005.50000  ...               1.0
+std               1419.16331  ...               0.0
+min                  2.00000  ...               1.0
+25%                503.75000  ...               1.0
+50%               1005.50000  ...               1.0
+75%               1507.25000  ...               1.0
+max               2009.00000  ...               1.0
+
+[8 rows x 8 columns]
+2025-04-18 18:50:23,901 - INFO - Class distribution:
+2025-04-18 18:50:23,902 - INFO - away: 1
+2025-04-18 18:50:23,902 - INFO - home: 1
+2025-04-18 18:50:23,902 - ERROR - Error training model: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2025-04-18 18:50:23,904 - ERROR - Model training failed
